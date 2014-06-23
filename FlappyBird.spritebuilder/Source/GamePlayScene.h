@@ -19,7 +19,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 {
     // define variables here;
     Character*     character; //instance of Flappy Bird
-    CCPhysicsNode* physicsNode; // pointer to physics node... 
+    CCPhysicsNode* physicsNode; // pointer to physics node...
+    float timeSinceObstacle;
 }
 
 -(void) initialize;
